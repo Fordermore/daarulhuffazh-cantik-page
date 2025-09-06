@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import graduationCeremony from "@/assets/graduation-ceremony.jpg";
-import computerClass from "@/assets/computer-class.jpg";
-import studySession from "@/assets/study-session.jpg";
-import sportsActivity from "@/assets/sports-activity.jpg";
 
 const Gallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,24 +9,44 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      src: graduationCeremony,
-      title: "Wisuda Santri",
-      description: "Momen bahagia wisuda santri yang telah menyelesaikan pendidikan"
+      src: "/lovable-uploads/c7d68e8e-7cb8-4bf5-b2c1-8dff2afa4b75.png",
+      title: "Wisuda Haflah Tasyakur",
+      description: "Acara wisuda dan haflah tasyakur akhirussanah dengan para santri dan ustadz"
     },
     {
-      src: computerClass,
-      title: "Kelas Komputer",
-      description: "Fasilitas komputer modern untuk pembelajaran teknologi"
+      src: "/lovable-uploads/43d56df1-60e1-439d-ba28-73bf1ff500a6.png",
+      title: "Kelas Komputer Modern",
+      description: "Fasilitas komputer modern dengan pemandangan alam yang indah"
     },
     {
-      src: studySession,
-      title: "Kajian Al-Qur'an",
-      description: "Sesi kajian dan pembelajaran Al-Qur'an bersama ustadz"
+      src: "/lovable-uploads/4f1778f4-0360-4027-8c52-1304aae97acb.png",
+      title: "Foto Bersama Santri",
+      description: "Kegiatan bersama santri dengan pejabat dan ustadz di ruang multimedia"
     },
     {
-      src: sportsActivity,
-      title: "Kegiatan Olahraga", 
-      description: "Aktivitas olahraga untuk menjaga kesehatan jasmani santri"
+      src: "/lovable-uploads/58df06a2-4a7e-4d5a-916b-0c503790b3b9.png",
+      title: "Latihan Olahraga Outdoor",
+      description: "Kegiatan olahraga dan latihan fisik santri di lapangan terbuka"
+    },
+    {
+      src: "/lovable-uploads/91c53441-90ba-4312-805d-1fcbe5211294.png",
+      title: "Santri Berprestasi",
+      description: "Para santri berprestasi dengan kopiah tradisional di acara khusus"
+    },
+    {
+      src: "/lovable-uploads/999cf02e-bf3b-4ba9-92ec-4167ed2884ad.png",
+      title: "Pelatihan Baris Berbaris",
+      description: "Kegiatan pelatihan kedisiplinan baris berbaris dengan instruktur TNI"
+    },
+    {
+      src: "/lovable-uploads/950669dd-d671-46b6-8607-119db703b5bc.png",
+      title: "Ruang Media Pembelajaran",
+      description: "Ruang media pembelajaran dengan teknologi audio visual modern"
+    },
+    {
+      src: "/lovable-uploads/d0a0d11a-194b-41bb-8b52-8bcf2d678b1a.png",
+      title: "Kerjasama Kelembagaan",
+      description: "Pertemuan resmi dan kerjasama dengan lembaga pendidikan lainnya"
     }
   ];
 
