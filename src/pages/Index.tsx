@@ -1,8 +1,12 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Programs from "@/components/Programs";
+import ProgramsDetailed from "@/components/ProgramsDetailed";
+import Extracurricular from "@/components/Extracurricular";
+import AlumniAchievements from "@/components/AlumniAchievements";
+import Testimonials from "@/components/Testimonials";
 import Gallery from "@/components/Gallery";
+import RegistrationInfo from "@/components/RegistrationInfo";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -13,8 +17,12 @@ const Index = () => {
       <main>
         <Hero />
         <About />
-        <Programs />
+        <ProgramsDetailed />
+        <Extracurricular />
+        <AlumniAchievements />
+        <Testimonials />
         <Gallery />
+        <RegistrationInfo />
         <Contact />
       </main>
       <Footer />
